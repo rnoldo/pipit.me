@@ -1,9 +1,12 @@
 +++
 title = "Two Pi Extensions: pi-ext-pomo and pi-ext-tutor-mode"
 date = "2026-02-08"
+summary = "A brief introduction to two Pi extensions: pi-ext-pomo and pi-ext-tutor-mode."
 +++
 
 This post briefly introduces two Pi extensions I built: **pi-ext-pomo** and **pi-ext-tutor-mode**.
+
+<!--more-->
 
 ## pi-ext-pomo
 
@@ -26,7 +29,7 @@ This post briefly introduces two Pi extensions I built: **pi-ext-pomo** and **pi
 - `/eye`
 - `/posture`
 
-Repository: `https://github.com/rnoldo/pi-ext-pomo`
+Repository: [github.com/rnoldo/pi-ext-pomo](https://github.com/rnoldo/pi-ext-pomo)
 
 ---
 
@@ -84,4 +87,4 @@ Sample content of `docs/vocabulary/2026-02-08.md`:
 - I may be wrong, but here is my assumption.
 ```
 
-Repository: `https://github.com/rnoldo/pi-ext-tutor-mode`
+Repository: [github.com/rnoldo/pi-ext-tutor-mode](https://github.com/rnoldo/pi-ext-tutor-mode)
