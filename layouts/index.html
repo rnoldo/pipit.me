@@ -31,7 +31,7 @@ I’m Bruce Yang — a birder 🐦, developer, and product manager. I love the p
         <a href="{{ .Permalink }}" title="{{ .Title }}">
         {{ $image := .Page.Resources.GetMatch .Params.image }}
         {{ with $image }}
-            {{ $thumb := .Resize "400x" }}
+            {{ $thumb := .Resize "800x" }}
             <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="img-responsive">
         {{end}}
         </a>
