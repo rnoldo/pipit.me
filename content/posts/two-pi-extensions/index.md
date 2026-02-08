@@ -4,7 +4,7 @@ date = "2026-02-08"
 summary = "A brief introduction to two Pi extensions: pi-ext-pomo and pi-ext-tutor-mode."
 +++
 
-This post briefly introduces two Pi extensions I built: **pi-ext-pomo** and **pi-ext-tutor-mode**.
+I built two Pi extensions: **pi-ext-pomo** and **pi-ext-tutor-mode**.
 
 <!--more-->
 
