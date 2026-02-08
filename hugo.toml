@@ -1,0 +1,20 @@
+baseurl = "https://pipit.me/"
+title = "pipit"
+theme = "hugo-theme-console"
+languageCode = "zh-cn"
+
+[params]
+  titleCutting = false
+  animateStyle = "animated zoomIn fast"
+
+  [[params.navlinks]]
+  name = "about/"
+  url = "about/"
+
+  [[params.navlinks]]
+  name = "posts/"
+  url = "posts/"
+
+  [[params.navlinks]]
+  name = "photos/"
+  url = "photos/"
