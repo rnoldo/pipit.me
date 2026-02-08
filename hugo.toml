@@ -1,7 +1,7 @@
 baseurl = "https://pipit.me/"
-title = "pipit"
+title = "Bruce.Y"
 theme = "hugo-theme-console"
-languageCode = "zh-cn"
+languageCode = "en-us"
 
 [params]
   titleCutting = false
