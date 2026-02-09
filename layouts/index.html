@@ -15,7 +15,7 @@ I’m Bruce Yang — a birder 🐦, developer, and product manager. I love the p
         <div class="post">
             <p>
                 <div class="date">{{ .Date | time.Format ":date_medium" }}</div>
-                <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+                <h1><a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
                 {{ .Summary }}
             </p>
         </div>
@@ -28,7 +28,7 @@ I’m Bruce Yang — a birder 🐦, developer, and product manager. I love the p
 <div class="image-grid">
 {{ with .Site.GetPage "/photos" }}
     {{ range first 3 (sort .Pages "Date" "desc")}}
-        <a href="{{ .Permalink }}" title="{{ .Title }}">
+        <a href="{{ .RelPermalink }}" title="{{ .Title }}">
         {{ $image := .Page.Resources.GetMatch .Params.image }}
         {{ with $image }}
             {{ $thumb := .Resize "800x" }}
