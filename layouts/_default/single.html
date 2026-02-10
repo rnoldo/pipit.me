@@ -2,11 +2,11 @@
 <h1>{{ .Title }}</h1>
 
 {{ if .IsTranslated }}
-<nav style="margin-bottom: 20px; font-style: italic;">
-    {{ range .Translations }}
-        <a href="{{ .Permalink }}">{{ if eq .Language.Lang "zh" }}阅读中文版{{ else }}Read in English{{ end }}</a>
-    {{ end }}
-</nav>
+<p>
+  {{ range .Translations }}
+    <a href="{{ .RelPermalink }}">{{ if eq .Language.Lang "zh" }}中文{{ else }}English{{ end }}</a>
+  {{ end }}
+</p>
 {{ end }}
 
 {{ .Content }}
