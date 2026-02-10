@@ -1,7 +1,8 @@
 +++
 title = "10,000 倍杠杆：从出卖时间到交付产品"
 date = "2026-02-10"
-slug = "output-pricing"
+slug = "output-pricing-zh"
+url = "/notes/output-pricing-zh/"
 +++
 
 我 2005 年开始读大学，2012 年研究生毕业。iPhone 的出现开启了移动互联网时代，我也完整经历了这个时代。但我并没有像郭宇、Sofish、61、Kevin Zhou、图拉鼎那样：要么赚到大钱实现财富自由，要么有自己的公司和产品，过着有资产的生活。现在来到 AI 时代，我不能再像上次那样错过。
