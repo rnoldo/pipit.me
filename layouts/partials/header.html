@@ -15,24 +15,28 @@
     display: block;
   }
 
-  .container {
+  html[lang^="zh"] .container {
     font-family: Merriweather, "Times New Roman", Georgia, Palatino, Times, "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", serif;
   }
 
-  .entry-content p,
-  .entry-content li {
+  html[lang^="zh"] .entry-content p,
+  html[lang^="zh"] .entry-content li {
     line-height: 1.9;
   }
 
-  .entry-content h2 + p,
-  .entry-content h3 + p,
-  .entry-content h4 + p {
+  html[lang^="zh"] .entry-content h3 {
+    margin-bottom: 0;
+  }
+
+  html[lang^="zh"] .entry-content h2 + p,
+  html[lang^="zh"] .entry-content h3 + p,
+  html[lang^="zh"] .entry-content h4 + p {
     margin-top: 0;
   }
 
-  code,
-  pre,
-  .terminal-prompt {
+  html[lang^="zh"] code,
+  html[lang^="zh"] pre,
+  html[lang^="zh"] .terminal-prompt {
     font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   }
 </style>
