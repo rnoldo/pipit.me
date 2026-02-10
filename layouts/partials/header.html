@@ -15,13 +15,24 @@
     display: block;
   }
 
-  html[lang^="zh"] .container {
+  .container {
     font-family: Merriweather, "Times New Roman", Georgia, Palatino, Times, "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", serif;
   }
 
-  html[lang^="zh"] code,
-  html[lang^="zh"] pre,
-  html[lang^="zh"] .terminal-prompt {
+  .entry-content p,
+  .entry-content li {
+    line-height: 1.9;
+  }
+
+  .entry-content h2 + p,
+  .entry-content h3 + p,
+  .entry-content h4 + p {
+    margin-top: 0;
+  }
+
+  code,
+  pre,
+  .terminal-prompt {
     font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   }
 </style>
