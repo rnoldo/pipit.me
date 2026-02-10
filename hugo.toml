@@ -2,6 +2,15 @@ baseurl = "https://pipit.me/"
 title = "Bruce.Y"
 theme = "hugo-theme-console"
 languageCode = "en-us"
+defaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+  [languages.zh]
+    languageName = "中文"
+    weight = 2
 
 [params]
   titleCutting = false

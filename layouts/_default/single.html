@@ -1,0 +1,13 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+
+{{ if .IsTranslated }}
+<nav style="margin-bottom: 20px; font-style: italic;">
+    {{ range .Translations }}
+        <a href="{{ .Permalink }}">{{ if eq .Language.Lang "zh" }}阅读中文版{{ else }}Read in English{{ end }}</a>
+    {{ end }}
+</nav>
+{{ end }}
+
+{{ .Content }}
+{{ end }}
