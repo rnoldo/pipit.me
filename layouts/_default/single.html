@@ -8,6 +8,10 @@
   {{ end }}
 </h1>
 
+{{ if and (eq .Section "notes") (not .Date.IsZero) }}
+<p>{{ .Date | time.Format ":date_medium" }}</p>
+{{ end }}
+
 <div class="entry-content">
   {{ .Content }}
 </div>
