@@ -31,7 +31,17 @@
   /* Expand title hover area in posts/notes lists without expanding link click area */
   .posts-list .post h1,
   .posts-list .post h2 {
-    padding-bottom: 0.45em;
+    position: relative;
+  }
+
+  .posts-list .post h1::before,
+  .posts-list .post h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    height: 0.45em;
   }
 
   .posts-list .post h1:hover a,
