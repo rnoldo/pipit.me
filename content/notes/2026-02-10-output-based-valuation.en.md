@@ -1,6 +1,7 @@
 +++
 title = "The 10,000x Leverage: From Selling Time to Shipping Products"
 date = "2026-02-10"
+slug = "output-pricing"
 +++
 
 I started university in 2005 and finished my master's degree in 2012. In 2007, the first iPhone arrived, marking the "iPhone Moment" of the mobile internet. I lived through that entire era, yet unlike peers such as Guo Yu, Sofish, 61, Kevin Zhou, or Tualatrix, I didn't reach financial freedom or build a company with its own assets. Now that the AI era has arrived, I refuse to be a bystander again.
