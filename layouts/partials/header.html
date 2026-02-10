@@ -27,4 +27,16 @@
   html[lang^="zh"] .terminal-prompt {
     font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   }
+
+  /* Expand title hover area in posts/notes lists without expanding link click area */
+  .posts-list .post h1,
+  .posts-list .post h2 {
+    padding-bottom: 0.45em;
+  }
+
+  .posts-list .post h1:hover a,
+  .posts-list .post h2:hover a {
+    background-color: var(--primary-color);
+    color: var(--invert-font-color);
+  }
 </style>
