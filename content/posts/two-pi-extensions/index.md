@@ -1,10 +1,10 @@
 +++
-title = "Two Pi Extensions: pi-ext-pomo and pi-ext-tutor-mode"
+title = "Two Pi Extensions: pi-ext-pomo and pi-ext-engl"
 date = "2026-02-08"
-summary = "A brief introduction to two Pi extensions: pi-ext-pomo and pi-ext-tutor-mode."
+summary = "A brief introduction to two Pi extensions: pi-ext-pomo and pi-ext-engl."
 +++
 
-I built two Pi extensions: **pi-ext-pomo** and **pi-ext-tutor-mode**.
+I built two Pi extensions: **pi-ext-pomo** and **pi-ext-engl**.
 
 <!--more-->
 
@@ -33,9 +33,9 @@ Repository: [github.com/rnoldo/pi-ext-pomo](https://github.com/rnoldo/pi-ext-pom
 
 ---
 
-## pi-ext-tutor-mode
+## pi-ext-engl
 
-`pi-ext-tutor-mode` is an English-learning workflow extension for Pi.
+`pi-ext-engl` is an English-learning workflow extension for Pi.
 
 ### Main features
 - Real-time English correction
@@ -45,14 +45,14 @@ Repository: [github.com/rnoldo/pi-ext-pomo](https://github.com/rnoldo/pi-ext-pom
 - Mode toggle (on/off)
 
 ### Commands
-- `tutor-mode on`
-- `tutor-mode off`
-- `tutor-mode status`
-- `tutor mode review` (chat trigger phrase)
+- `engl on`
+- `engl off`
+- `engl status`
+- `engl review` (chat trigger phrase)
 
 ### Example session
 ```text
-You: tutor-mode on
+You: engl on
 Pi: ✅ Tutor Mode ON
 
 You: I still wondering if this can works?
@@ -87,4 +87,4 @@ Sample content of `docs/vocabulary/2026-02-08.md`:
 - I may be wrong, but here is my assumption.
 ```
 
-Repository: [github.com/rnoldo/pi-ext-tutor-mode](https://github.com/rnoldo/pi-ext-tutor-mode)
+Repository: [github.com/rnoldo/pi-ext-engl](https://github.com/rnoldo/pi-ext-engl)
