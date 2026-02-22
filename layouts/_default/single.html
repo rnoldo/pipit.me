@@ -12,7 +12,7 @@
 <p>{{ .Date | time.Format ":date_medium" }}</p>
 {{ end }}
 
-<div class="entry-content{{ if eq .Section "notes" }} note-content{{ end }}">
+<div class="entry-content">
   {{ .Content }}
 </div>
 {{ end }}
