@@ -10,7 +10,7 @@ What kind of change will this bring to the software industry and to the world? W
 
 By coincidence, Andrej Karpathy also posted several tweets about this yesterday — definitely worth reading.
 
-Podcast link: https://pca.st/episode/1265a49f-8e0c-403b-a807-0ef9a5e5d4b5
+[Podcast link](https://pca.st/episode/1265a49f-8e0c-403b-a807-0ef9a5e5d4b5)
 
 ## Post 1
 

@@ -11,7 +11,7 @@ url = "/notes/andrej-karpathy-on-ai-era-software-app-zh/"
 
 正好 Andrej Karpathy 昨天也发了几条关于这个事情的推文，值得一看。
 
-播客链接：https://pca.st/episode/1265a49f-8e0c-403b-a807-0ef9a5e5d4b5
+[播客链接](https://pca.st/episode/1265a49f-8e0c-403b-a807-0ef9a5e5d4b5)
 
 ## 推文 1
 
