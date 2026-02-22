@@ -1,7 +1,6 @@
 +++
 title = "The 10,000x Leverage: From Selling Time to Shipping Products"
 date = "2026-02-10"
-description = "In the AI era, value compounds around output, not hours. Real learning and leverage come from shipping products continuously to the market."
 slug = "output-pricing"
 +++
 
