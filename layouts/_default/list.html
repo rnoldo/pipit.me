@@ -10,22 +10,7 @@
             <p>
                 <div class="date">{{ .PublishDate.Format "Jan. 2, 2006" }}</div>
                 <h1><a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
-                {{ if eq .Section "notes" }}
-                    {{ $text := .Summary | plainify | strings.TrimSpace }}
-                    {{ $preview := $text }}
-                    {{ if gt (len $text) 220 }}
-                        {{ $chunk := truncate 220 "" $text }}
-                        {{ $ends := findRE `(?s)^.*[。！？.!?]` $chunk 1 }}
-                        {{ if gt (len $ends) 0 }}
-                            {{ $preview = strings.TrimSpace (index $ends 0) }}
-                        {{ else }}
-                            {{ $preview = printf "%s…" (strings.TrimSpace $chunk) }}
-                        {{ end }}
-                    {{ end }}
-                    <span class="notes-summary">{{ $preview }}</span>
-                {{ else }}
-                    {{ .Summary }}
-                {{ end }}
+                {{ .Summary }}
             </p>
         </div>
     {{ end }}

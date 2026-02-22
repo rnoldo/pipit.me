@@ -1,7 +1,11 @@
-.notes-summary {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 5;
-  overflow: hidden;
-  text-overflow: ellipsis;
+@media only screen and (max-width: 850px) {
+  .terminal-logo {
+    max-width: 100%;
+  }
+
+  .terminal-logo .logo.terminal-prompt {
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
 }
