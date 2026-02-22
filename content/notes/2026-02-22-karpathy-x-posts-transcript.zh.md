@@ -2,6 +2,7 @@
 title = "andrej karpathy 谈 AI 时代 software/app"
 date = "2026-02-22"
 slug = "andrej-karpathy-on-ai-era-software-app-zh"
+url = "/notes/andrej-karpathy-on-ai-era-software-app-zh/"
 +++
 
 ## 推文 1

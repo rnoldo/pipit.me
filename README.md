@@ -21,3 +21,14 @@ hugo server -D
   - `HUGO_ENV`: `production`
 
 Then add custom domain: `pipit.me`.
+
+## Notes URL convention
+
+- Chinese notes should use explicit `url` in front matter to keep URL as `/notes/...-zh/` (without `/zh/` prefix).
+- Example:
+
+```toml
+slug = "andrej-karpathy-on-ai-era-software-app-zh"
+url = "/notes/andrej-karpathy-on-ai-era-software-app-zh/"
+```
+
