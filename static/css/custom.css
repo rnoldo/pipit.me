@@ -1,0 +1,8 @@
+.notes-summary {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin: 0.4rem 0 0.8rem;
+  color: var(--secondary-color);
+}

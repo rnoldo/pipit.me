@@ -7,11 +7,17 @@
 {{ range sort .Pages "Date" "desc" }}
     {{ if not .Params.private }}
         <div class="post">
-            <p>
-                <div class="date">{{ .PublishDate.Format "Jan. 2, 2006" }}</div>
-                <h1><a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+            <div class="date">{{ .PublishDate.Format "Jan. 2, 2006" }}</div>
+            <h1><a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+            {{ if eq .Section "notes" }}
+                {{ with .Description }}
+                    <p class="notes-summary">{{ . }}</p>
+                {{ else }}
+                    <p class="notes-summary">{{ .Summary | plainify }}</p>
+                {{ end }}
+            {{ else }}
                 {{ .Summary }}
-            </p>
+            {{ end }}
         </div>
     {{ end }}
 {{ end }}

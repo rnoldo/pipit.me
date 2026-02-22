@@ -1,6 +1,7 @@
 +++
 title = "10,000 倍杠杆：从出卖时间到交付产品"
 date = "2026-02-10"
+description = "AI 时代的核心分野是按产出计价而非按时间计价。只有持续向市场交付真实产品，才能获得杠杆、资产与真知。"
 slug = "output-pricing-zh"
 url = "/notes/output-pricing-zh/"
 +++
