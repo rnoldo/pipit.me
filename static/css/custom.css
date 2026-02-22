@@ -9,3 +9,20 @@
     word-break: break-word;
   }
 }
+
+.terminal blockquote.tquote {
+  margin: calc(var(--global-space) * 2) 0;
+  padding: calc(var(--global-space) * 1.2) calc(var(--global-space) * 1.5);
+  background-color: var(--code-bg-color);
+  border-left: 2px solid var(--secondary-color);
+}
+
+.terminal blockquote.tquote::before,
+.terminal blockquote.tquote::after {
+  content: none !important;
+  display: none !important;
+}
+
+.terminal blockquote.tquote p {
+  margin: 0;
+}
