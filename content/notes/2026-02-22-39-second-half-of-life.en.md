@@ -24,7 +24,7 @@ At 39, my physical and mental condition has been in bad shape: anxiety has wrapp
 After I sent Gemini a summary of my past two years and asked for analysis, it gave me this conclusion:
 
 {{< tquote >}}
-“Your only enemy is the brain that has grown used to being ‘excellent,’ used to a ‘fast pace,’ and used to ‘climbing upward.’”
+Your only enemy is the brain that has grown used to being ‘excellent,’ used to a ‘fast pace,’ and used to ‘climbing upward.’
 {{< /tquote >}}
 
 In other words, most of my physical problems come from the performance trap created by an overly smooth first half of life, and the chronic anxiety that came with it.

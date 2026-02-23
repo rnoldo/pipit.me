@@ -12,9 +12,12 @@
 
 .terminal blockquote.tquote {
   margin: calc(var(--global-space) * 2) 0;
-  padding: calc(var(--global-space) * 1.2) calc(var(--global-space) * 1.5);
-  background-color: var(--code-bg-color);
-  border-left: 2px solid var(--secondary-color);
+  border-left: 2px solid var(--primary-color);
+  font-style: italic;
+}
+
+.terminal blockquote {
+  padding-left: 1.5ch;
 }
 
 .terminal blockquote.tquote::before,
