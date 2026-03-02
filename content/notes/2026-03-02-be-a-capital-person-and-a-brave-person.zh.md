@@ -5,7 +5,7 @@ slug = "be-a-capital-person-and-a-brave-person-zh"
 url = "/notes/be-a-capital-person-and-a-brave-person-zh/"
 +++
 
-最近因为中概互联的暴跌，我忧心忡忡，甚至耽误了我做产品。
+最近因为中国金龙指数（中概互联）的暴跌，我忧心忡忡，甚至耽误了我做产品。
 
 另外回想起过年期间，我对丈母娘小区院子里有人养狗都纠结不已，甚至又进入了极大的焦虑状态。
 
