@@ -11,7 +11,7 @@ I kept telling myself I had to catch this wave and build something as fast as po
 
 But that urgency made me constantly tense. My body felt worse, and my mental state kept declining.
 
-Last night before sleep, I finally understood something: the best gift I can give my son is not money earned through anxiety, but a healthy, joyful father who can stay with him as he grows up.
+Last night before sleep, I finally understood something: the best gift I can give my son is not money earned by burning my health, but a healthy, joyful father who can stay with him as he grows up.
 
 A father who is unhappy, physically flashing red warnings, and unable to truly accompany his child is not worth any amount of money.
 
