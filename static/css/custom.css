@@ -80,33 +80,6 @@ html[lang^="zh"] .terminal-prompt {
   color: var(--invert-font-color);
 }
 
-/* zoomIn-like animation, closer to original animate.css style */
-.container.animated.zoomIn.fast {
-  animation: zoomInLike 0.8s both;
-  transform-origin: center center;
-  will-change: transform, opacity;
-}
-
-@keyframes zoomInLike {
-  from {
-    opacity: 0;
-    transform: scale3d(0.3, 0.3, 0.3);
-  }
-
-  50% {
-    opacity: 1;
-  }
-
-  to {
-    transform: scale3d(1, 1, 1);
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .container.animated.zoomIn.fast {
-    animation: none;
-  }
-}
 
 /* woff2 font faces (self-hosted) */
 @font-face {
