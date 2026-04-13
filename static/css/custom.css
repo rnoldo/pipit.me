@@ -80,19 +80,25 @@ html[lang^="zh"] .terminal-prompt {
   color: var(--invert-font-color);
 }
 
-/* lightweight page animation (replaces animate.css) */
+/* zoomIn-like animation, closer to original animate.css style */
 .container.animated.zoomIn.fast {
-  animation: fadeInScale 220ms ease-out both;
+  animation: zoomInLike 0.8s both;
+  transform-origin: center center;
+  will-change: transform, opacity;
 }
 
-@keyframes fadeInScale {
+@keyframes zoomInLike {
   from {
     opacity: 0;
-    transform: scale(0.985);
+    transform: scale3d(0.3, 0.3, 0.3);
   }
-  to {
+
+  50% {
     opacity: 1;
-    transform: scale(1);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
   }
 }
 
