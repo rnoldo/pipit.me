@@ -31,8 +31,8 @@ I’m Bruce.Y — a birder 🐦, developer, and product manager. I love the poet
         <a href="{{ .RelPermalink }}" title="{{ .Title }}">
         {{ $image := .Page.Resources.GetMatch .Params.image }}
         {{ with $image }}
-            {{ $thumb := .Resize "800x" }}
-            <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="img-responsive">
+            {{ $thumb := .Resize "800x webp q80" }}
+            <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="img-responsive" loading="lazy" decoding="async" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}">
         {{end}}
         </a>
     {{ end }}

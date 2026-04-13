@@ -29,3 +29,117 @@
 .terminal blockquote.tquote p {
   margin: 0;
 }
+
+.image-grid > a {
+  display: block;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+
+.image-grid > a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+html[lang^="zh"] .container {
+  font-family: "Roboto Mono Web", Menlo, Monaco, "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", monospace;
+}
+
+html[lang^="zh"] .entry-content p,
+html[lang^="zh"] .entry-content li {
+  line-height: 1.9;
+}
+
+html[lang^="zh"] code,
+html[lang^="zh"] pre,
+html[lang^="zh"] .terminal-prompt {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.posts-list .post h1,
+.posts-list .post h2 {
+  position: relative;
+}
+
+.posts-list .post h1::before,
+.posts-list .post h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  height: 0.45em;
+  pointer-events: none;
+}
+
+.posts-list .post h1:hover a,
+.posts-list .post h2:hover a {
+  background-color: var(--primary-color);
+  color: var(--invert-font-color);
+}
+
+/* lightweight page animation (replaces animate.css) */
+.container.animated.zoomIn.fast {
+  animation: fadeInScale 220ms ease-out both;
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .container.animated.zoomIn.fast {
+    animation: none;
+  }
+}
+
+/* woff2 font faces (self-hosted) */
+@font-face {
+  font-family: "Roboto Mono Web";
+  src: url("/hugo-theme-console/font/RobotoMono-Latin-Var.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Mono Web";
+  src: url("/hugo-theme-console/font/RobotoMono-LatinItalic-Var.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Mono Web";
+  src: url("/hugo-theme-console/font/RobotoMono-Latin-Var.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Mono Web";
+  src: url("/hugo-theme-console/font/RobotoMono-LatinItalic-Var.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+}
+
+:root {
+  --mono-font-stack: "Roboto Mono Web", Menlo, Monaco, Lucida Console,
+    Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono,
+    Courier New, monospace, serif;
+  --font-stack: "Roboto Mono Web", Menlo, Monaco, Lucida Console,
+    Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono,
+    Courier New, monospace, serif;
+}

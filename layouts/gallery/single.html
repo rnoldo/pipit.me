@@ -4,8 +4,8 @@
 {{ if and (isset .Params "image") .Params.image }}
     {{ $image := .Page.Resources.GetMatch .Params.image }}
     {{ with $image }}
-        {{ $thumb := .Resize "2000x" }}
-        {{ printf `<img src="%s" alt="%s" class="img-responsive gallery-image">` $thumb.RelPermalink .Title | safeHTML }}
+        {{ $thumb := .Resize "1600x webp q82" }}
+        {{ printf `<img src="%s" alt="%s" class="img-responsive gallery-image" loading="eager" decoding="async" fetchpriority="high" width="%d" height="%d">` $thumb.RelPermalink .Title $thumb.Width $thumb.Height | safeHTML }}
     {{end}}
 {{ end }}
 
